@@ -3,7 +3,7 @@
 - name: Install packages and dependencies
   apt: name={{ item }} update_cache={{ update_apt_cache }} state=installed
   with_items:
-    - openjdk-7-jdk
+    - openjdk-8-jdk
     - libfontconfig
     - libffi-dev
     - libncurses5-dev
